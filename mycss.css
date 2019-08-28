@@ -17,10 +17,6 @@ body{
   height: 100%;
 }
 
-[class*="col-"] {
-    --padding-left: 5px;
-}
-
 .grey-box{
 	padding: 10px;
     background: #f3f3f3;
@@ -31,9 +27,9 @@ body{
     padding: 10px;
     background-color: #80a6c526;
     height: 350px;
-    border-radius: 10px;
-    border: 5px solid #ababb5;
-    margin: 15px;
+    //border-radius: 10px;
+    //border: 5px solid #ababb5;
+    //margin: 5px;
 }
 
 .projects-box{
