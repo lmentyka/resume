@@ -1,37 +1,50 @@
-body{
-  font-family: Optima,Segoe,Segoe UI,Candara,Calibri,Arial,sans-serif; 
+body {
+    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
+    color: #252627;
+    background-color: #f8f9fa;
 }
-
 .h1, .h1, h2, .h2, h3, .h3 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
 .hr {
     margin-top: 10px;
     margin-bottom: 10px;
+    border-top: 1px solid #4cb69fb8;
 }
-
+a {
+    color: #4cb69fb8;
+}
+a:hover {
+    color: #252627;
+}
+.progress-bar {
+    background-color: #4cb69fb8;
+}
+.progress {
+    background-color: #f8f9fa;
+}
+.badge-secondary {
+    background-color: #4cb69fb8;
+}
 .vline {
-  border-left: 1px solid #f3f3f3;
-  height: 100%;
+    border-left: 1px solid #f3f3f3;
+    height: 100%;
 }
-
-.grey-box{
-	padding: 10px;
-    background: #f3f3f3;
+.grey-box {
+    padding: 10px;
+    background: #4cb69fb8;
     border-radius: 10px;
+    color: #f8f9fa;
 }
-
-.work-box{
+.work-box {
     padding: 10px 20px;
     background-color: #80a6c526;
     height: 325px;
     border: white 5px solid;
     border-radius: 10px;
 }
-
-.projects-box{
-  padding: 10px;
- height: 200px;
+.projects-box {
+    padding: 10px;
+    height: 200px;
 }
