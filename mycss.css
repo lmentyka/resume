@@ -21,6 +21,12 @@ a:hover {
 .progress-bar {
     background-color: #4cb69fb8;
 }
+.progress-bar:hover{
+  background: #85cb33;
+}
+.years {
+  display:none;
+}
 .progress {
     background-color: #f8f9fa;
 }
