@@ -10,16 +10,16 @@ body {
 .hr {
     margin-top: 10px;
     margin-bottom: 10px;
-    border-top: 1px solid #4cb69fb8;
+    border-top: 1px solid #7862ac;
 }
 a {
-    color: #4cb69fb8;
+    color: #85cb33;
 }
 a:hover {
-    color: #252627;
+    color: #85cb33;
 }
 .progress-bar {
-    background-color: #4cb69fb8;
+    background-color: #7862ac;
 }
 .progress-bar:hover{
   background: #85cb33;
@@ -31,7 +31,7 @@ a:hover {
     background-color: #f8f9fa;
 }
 .badge-secondary {
-    background-color: #4cb69fb8;
+    background-color: #7862ac;
 }
 .vline {
     border-left: 1px solid #f3f3f3;
@@ -39,7 +39,7 @@ a:hover {
 }
 .grey-box {
     padding: 10px;
-    background: #4cb69fb8;
+    background: #7862ac;
     border-radius: 10px;
     color: #f8f9fa;
 }
