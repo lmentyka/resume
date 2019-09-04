@@ -1,28 +1,56 @@
-.grey-box{
-	padding: 20px;
-    background: #f3f3f3;
-    border-radius: 10px;
+body {
+    color: #252627;
+    background-color: #f8f9fa;
 }
-.grey-box h5{
-	padding: 10px;
+.progress {
+    background-color: #f8f9fa;
+}
+.badge-secondary {
+    background-color: #7862ac;
+}
+a.badge-secondary:hover {
+    background-color: #85cb33;
+}
+a {
+    color: #85cb33;
+}
+a:hover {
+    color: #85cb33;
+}
+hr {
+    border-top: 1px solid #7862ac;
+}
+.progress-bar {
+    background-color: #7862ac;
+}
+.progress-bar:hover {
+    background: #85cb33;
+}
+.years {
+    display: none;
+}
+.grey-box {
+    padding: 20px;
+    background: #7862ac;
+    border-radius: 10px;
+    color: #f8f9fa;
+}
+.grey-box h5 {
+    padding: 10px;
 }
 h1, h2, h3 {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
 .hr {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
 .vline {
-  border-left: 1px solid #f3f3f3;
-  height: 100%;
+    border-left: 1px solid #f3f3f3;
+    height: 100%;
 }
-
-.progress{
-	height:2rem;
-	margin: 5px 0px;
+.progress {
+    height: 2rem;
+    margin: 5px 0px;
 }
-
