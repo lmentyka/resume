@@ -1,6 +1,7 @@
 body {
     color: #252627;
     background-color: #f8f9fa;
+    font-family: Optima, Segoe, Segoe UI, Candara, Calibri, Arial, sans-serif;
 }
 .progress {
     background-color: #f8f9fa;
@@ -26,8 +27,81 @@ hr {
 .progress-bar:hover {
     background: #85cb33;
 }
+/*
 .years {
     display: none;
+}
+*/
+/*
+.dot {
+  height: 115px;
+  width: 115px;
+  background-color: #7862ac;
+  color: #fff;
+  border-radius: 50%;
+  display: table;
+  margin: 10px;
+  float:left;
+}
+.dot:hover{
+    background: #85cb33;
+}
+
+.skill{
+    vertical-align: middle;
+    display: table-cell;
+    text-align:center;
+}
+
+.years {
+    display: none;
+    vertical-align: middle;
+    text-align:center;
+}
+*/
+.flip-container {
+    perspective: 1000px;
+}
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+.flip-container, .front, .back {
+    height: 125px;
+    width: 125px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    float: left;
+    margin: 0px 10px 10px 0px;
+}
+.flipper {
+    transition: 0.2s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+.front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    vertical-align: middle;
+    display: table-cell;
+}
+.front {
+    z-index: 2;
+    /* for firefox 31 */
+    transform: rotateY(0deg);
+    background-color: #7862ac;
+}
+.back {
+    transform: rotateY(180deg);
+    background: #85cb33;
+}
+.flip-container span {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    right: 0;
 }
 .grey-box {
     padding: 20px;
@@ -54,3 +128,7 @@ h1, h2, h3 {
     height: 2rem;
     margin: 5px 0px;
 }
+/*
+[class*="col-"] {
+    padding-left: 5px;
+}*/
