@@ -99,9 +99,9 @@ hr {
 }
 .flip-container span {
     position: absolute;
-    top: 45px;
     left: 0;
     right: 0;
+	line-height: 125px;
 }
 .grey-box {
     padding: 20px;
